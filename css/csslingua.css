@@ -1,0 +1,211 @@
+#tituloprincipal{position: absolute;color:rgb(255, 208, 0); font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 02px 03px 02px rgb(88, 0, 0);top: 140px;left: 425px;z-index: 3;font-size: 54px;white-space: nowrap}
+
+#tituloprincipal:hover{position: absolute;color:rgb(221, 0, 0); font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 02px 03px 02px rgb(189, 0, 236);left: 423px;font-size: 62px;top: 128px; letter-spacing: 9px;}
+    
+#tijolos{position: absolute;
+    width: 1903px;
+    height: 1100px;
+    top: 300px;
+    left: 0px;
+    z-index: -1;
+    filter: contrast(200%);
+    filter: saturate(90%);
+    opacity: 15%;} 
+
+body{background-color:rgb(255, 237, 156);}
+
+
+
+@media screen and (max-width: 980px){
+.titulo{margin:0em -1em;width: 1200px;} 
+#imageinsta{margin:-5em -10em;}
+.minitexto{margin:0em 4em}
+.box2{margin:20em 0em;}
+.box{margin:-1em 0em;}
+h3{margin:auto;font-size: 30px;} 
+#textodúvida{margin:-30em -22em;}
+#nãoendereço{margin:2em 1em;}
+}
+
+
+.box{position: absolute;
+    width: 1903px;
+    height: 330px;
+    top: 0px;
+    left: 0px;
+    background:rgb(49, 69, 160);
+    z-index: 1;}
+
+.box2{position: absolute;
+    width: 1903px;
+    height: 150px;
+    top: 1320px;
+    left: 0px;
+    background:rgb(49, 69, 160);
+    z-index: 1}
+
+.box3{position: absolute;
+    width: 530px;
+    height: 70px;
+    top: 1187px;
+    left: 122px;
+    background:rgb(255, 255, 255);
+    border-radius: 39px 39px 28px 28px;
+    border: 6px outset red;
+    z-index: -1}
+
+.box4{position: absolute;
+    width: 1820px;
+    height: 260px;
+    top: 340px;
+    left: 46px;
+    background:rgb(255, 255, 255);
+    border-radius: 39px;
+    border: 6px outset red;
+    z-index: -1}
+    
+#texto{position:absolute;
+    font-size:57px;
+    left: 410px;
+    top: 135px;
+    z-index: 2}  
+
+#eventosfeitos{position: absolute;
+    left: 30px;
+    top:636px;
+    }
+    
+#textoeventos{position: absolute;
+    left: 131px;
+    top: 1189px;
+    font-size: 21px;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    text-shadow: 01px 00px 01px rgb(255, 5, 5);}
+
+#titulo1{position: relative;
+    left: 98px;
+    width: 4px;
+    top: -4px;
+    color:hsl(258, 100%, 30%);
+    text-shadow: 02px 02px 02px rgb(255, 153, 0)} 
+
+#texto1{position: relative;
+    left: 90px;
+    top: -13px;
+    width: 4px;
+    font-size: 20px;
+    color:hsl(258, 100%, 30%);
+    text-shadow: 02px 02px 02px rgb(255, 153, 0);
+    white-space: nowrap;
+    font-variant: small-caps;}
+    
+
+#titulo2{position: relative;
+    left: 98px;
+    width: 280px;
+    top: -17px;
+    color:hsl(258, 100%, 30%);
+    text-shadow: 02px 02px 02px rgb(255, 153, 0)} 
+
+#texto2{position: relative;
+    left: 90px;
+    top: -30px;
+    width: 10px;
+    font-size: 20px;
+    color:hsl(258, 100%, 30%);
+    text-shadow: 02px 02px 02px rgb(255, 153, 0);
+    white-space: nowrap;
+    font-variant: small-caps}
+
+#textoinstituição{position: absolute;
+    color: rgb(219, 23, 23);
+    left: 725px;
+    top: 240px;
+    z-index: 2}
+
+#image1{position: absolute;
+    height: 300px;
+    left: 250px;
+    top: -9px;
+    z-index: 2;
+    filter: sepia(50%);
+    filter:drop-shadow(08px 06px 4px #ff0000)}
+    
+#imageinsta{position: absolute;
+    height: 70px;
+    left: 1750px;
+    top: 1359px; 
+    z-index: 2;
+    }
+
+#image2{position: absolute;
+    height: 290px;
+    left: 1170px;
+    top: 15px;
+    z-index: 2;
+    filter:drop-shadow(08px 06px 4px #c300ff)}
+
+#image1evento{position: absolute;
+    height: 360px;
+    left: 50px;
+    top: 725px;
+    box-shadow: 07px 05px 06px;}
+    
+#image2evento{position: absolute;
+    height: 360px;
+    left: 523px;
+    top: 725px;
+    box-shadow: 07px 05px 06px;}
+
+#image3evento{position: absolute;
+    height: 360px;
+    left: 980px;
+    top: 725px;
+    box-shadow: 07px 05px 06px;}
+
+#image4evento{position: absolute;
+    height: 360px;
+    left: 1439px;
+    top: 725px;
+    box-shadow: 07px 05px 06px;}
+
+#aviso{position: absolute;
+    height: 91px;
+    left: 32px;
+    top: 1140px;
+    transform:rotate(-39deg);
+    filter: contrast(200%);
+    z-index: 3;}
+
+#localizador{position: absolute;
+    height: 60px;
+    width: 110px;
+    left: 12px;
+    top: 1364px;
+    z-index: 2;}
+
+#nãoendereço{position: absolute;
+    color:rgb(214, 122, 56);
+    height: 80px;
+    width: 298px;
+    left: 90px;
+    top: 1386px;
+    text-shadow: 00px 00px 03px red;
+    z-index: 2;}
+
+#textodúvida{position: absolute;
+    height: 50px;
+    left: 1450px;
+    top: 1384px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+    text-shadow: 00px 00px 03px red;
+    z-index: 2;
+    font-size: 20px;
+    white-space: nowrap;}
+
+
+    
