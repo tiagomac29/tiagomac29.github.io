@@ -25,8 +25,8 @@ body{background-color:rgb(255, 237, 156);}
 
 
 @media screen and (max-width: 980px){
-#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 410px;}
-#tituloprincipal:hover{position: absolute;font-size: 55px;top:720px;left: 410px;height: 20px !important;}
+#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 445px;}
+#tituloprincipal:hover{position: absolute;font-size: 55px;top:720px;left: 445px;height: 20px !important;}
 #textoinstituição{margin:28em -3.8em}
 #tijolos{margin:-20em -1em;height: 3300px;left: 14px;}
 #cidade{filter:opacity(100%);filter:hue-rotate(120deg);left: 0px;height: 800px;width: 1903px;z-index: 0;top: -200px;}
