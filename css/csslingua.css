@@ -25,7 +25,7 @@ body{background-color:rgb(255, 237, 156);}
 
 
 @media screen and (max-width: 980px){
-#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 396px;}
+#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 397px;}
 #tituloprincipal:hover{position: absolute;font-size: 55px;top:720px;left: 360px;height: 20px !important;}
 #textoinstituição{margin:28em -3.8em}
 #tijolos{margin:-20em -1em;height: 3300px;left: 14px;}
