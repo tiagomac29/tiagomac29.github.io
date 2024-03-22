@@ -25,7 +25,7 @@ body{background-color:rgb(255, 237, 156);}
 
 
 @media screen and (max-width: 980px){
-#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 387px;}
+#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 396px;}
 #tituloprincipal:hover{position: absolute;font-size: 55px;top:720px;left: 360px;height: 20px !important;}
 #textoinstituição{margin:28em -3.8em}
 #tijolos{margin:-20em -1em;height: 3300px;left: 14px;}
@@ -33,7 +33,7 @@ body{background-color:rgb(255, 237, 156);}
 #naoendereco{position:relative;top:150px;font-size: 26px;margin:71.2em 0.7em;width: 500px !important;}
 #eventosfeitos{margin:25.5em 3em;width: 700px;font-size: 30px;}
 #localizador{position: relative;margin:116em 1em;}
-.imagens{position:relative;left: 860px !important ;top: 540px !important;}
+.imagens{position:relative;left: 420px !important ;top: 540px !important;}
 #aviso{margin:99em -0em;}
 #imageinsta{margin:116em -10em;}
 #imgpodcast{margin:116em -11em}
