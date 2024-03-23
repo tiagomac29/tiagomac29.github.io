@@ -25,9 +25,9 @@ body{background-color:rgb(255, 237, 156);}
 
 
 @media screen and (max-width: 980px){
-#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 486px;}
-#tituloprincipal:hover{position: absolute;font-size: 55px;top:720px;left: 486px;height: 20px !important;}
-#textoinstituição{margin:28em 4.9em}
+#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 492px;}
+#tituloprincipal:hover{position: absolute;font-size: 55px;top:720px;left: 492px;height: 20px !important;}
+#textoinstituição{margin:28em 4em}
 #tijolos{margin:-20em -1em;height: 3300px;left: 14px;}
 #cidade{filter:opacity(100%);filter:hue-rotate(120deg);left: 0px;height: 800px;width: 1903px;z-index: 0;top: -200px;}
 #naoendereco{position:relative;top:150px;font-size: 26px;margin:71.2em 0.7em;width: 440px !important;}
@@ -49,7 +49,7 @@ body{background-color:rgb(255, 237, 156);}
 .box5{margin:116em -13em;}
 #textoeventos{margin:99em 0.5em;width:700px;font-size: 19px !important;}
 #textoduvida{position: relative;margin:66em -9.5em;font-size: 28px !important;}
-#podcast{margin:94em -8.4em;font-size: 20px !important}
+#podcast{margin:94em -9.9em;font-size: 20px !important}
 #titulo1{top: 767px !important;font-size: 14px !important;text-transform:uppercase} 
 #texto1 {overflow-wrap: break-word !important;margin:50em 1em;font-size: 15px !important;line-height: 1.5em !important;
          text-transform:uppercase;}
