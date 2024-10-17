@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="cssvoluntario.css">
+    <link rel="shortcut icon" href="coletivo-quebrada.ico" type="image/x-icon">
+    <script type="text/javascript" src="scriptCA.js"></script>
+    <title>CADASTRO voluntario</title>
+</head>
+<body>
+    <form name="formain" id="formulariomain" action="servidor.jsp" method="post" align="center">
+        <legend align="center"><h1><ins>CADASTRO</ins></h1></legend>
+        <br><br><br><br><br><br>
+        <label for="txtnome" id="letraA">NOME:</label>
+        <input type="text" name="txtnome" id="txtnome" >
+        <span id="erronome"></span>
+        <br><br>
+        <label for="txtgmail" id="letraG">GMAIL:</label>
+        <input type="text" name="txtgmail" id="txtgmail">
+        <span id="errogmail"></span>
+        <br><br>
+        <label for="txtcelular" id="letraN">NÚMERO DO CELULAR:</label>
+        <input type="text" name="txtcelular" id="txtcelular">
+        <span id="errocelular"></span>   
+        <input id="botao" type="button" value="CONFIRMAR" onclick="verificando()">
+        <br><br> 
+        <label for="escolhas" id="preferencias">preferências na área:</label>
+        <select name="escolhas" id="escolhas1">
+        <option value = nenhum>nenhum</option>
+        <option value = dança>danca</option>
+        <option value = palesta>palesta</option>
+        <option value = esportes>esportes</option>
+        <option value = rap>rap</option>
+        </select>
+    </form>
+
+    <img id ="skatista" alt="skatista" src="skatista.png">
+    <img id ="rapper" alt="rapper" src="rapper.png">
+
+</body>
+</html>

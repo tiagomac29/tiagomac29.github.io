@@ -1,0 +1,314 @@
+#tituloprincipal{position: absolute;color:rgb(255, 187, 0); font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 02px 03px 02px rgb(0, 0, 0);top: 159px;left: 425px;z-index: 3;font-size: 54px;white-space: nowrap;}
+
+#tituloprincipal:hover{position: absolute;color:rgb(203, 0, 221); font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 10px rgb(255, 0, 0);left: 423px;font-size: 62px;top: 142px; letter-spacing: 9px;}
+    
+#tijolos{position: absolute;
+    width: 1903px;
+    height: 1130px;
+    top: 300px;
+    left: 0px;
+    z-index: -1;
+    filter: contrast(200%);
+    filter: saturate(90%);
+    opacity: 15%;} 
+
+#cidade{position:absolute;
+    height: 2px;
+    z-index: 3;
+    left: 5px;
+    top: 50px;
+    filter:opacity(0%)} 
+
+body{background-color:rgb(255, 237, 156);}
+
+
+@media screen and (max-width: 980px){
+#tituloprincipal{position: absolute;font-size: 53px;top:720px;left: 340px;}
+#tituloprincipal:hover{position: absolute;font-size: 55px;top:720px;left: 360px;height: 20px !important;}
+#textoinstituição{margin:28em -3.8em}
+#tijolos{margin:-20em -1em;height: 3300px;left: 14px;}
+#cidade{filter:opacity(100%);filter:hue-rotate(120deg);left: 0px;height: 800px;width: 1903px;z-index: 0;top: -200px;}
+#naoendereco{position:relative;top:150px;font-size: 26px;margin:71.2em 0.7em;width: 390px !important;}
+#eventosfeitos{margin:25.5em 3em;width: 700px;font-size: 30px;}
+#localizador{position: relative;margin:116em 1em;}
+.imagens{position: relative;left:-100px;top:540px;}
+#aviso{margin:99em -0em;}
+#imageinsta{margin:116em -10em;}
+#imgpodcast{margin:116em -11em}
+#image1evento{margin:43em 3.7em;width: 700px;height: 700px !important}
+#image2evento{margin:43em 23em;width: 700px;height: 700px !important}
+#image3evento{margin:83em -46em;width: 700px;height: 700px !important}
+#image4evento{position:absolute;margin:83em -26em;width: 700px;height: 700px !important}
+.minitexto{position: relative;font-size: 10px;left: 70px;margin:0em -4.5em;}
+.box2{margin:116em 0em;}
+.box{margin:35em 0em;}
+.box3{margin:116em 0em;}
+.box4{margin:36em 0em;width: 1800px !important;height: 360px !important}
+.box5{margin:116em -13em;}
+#textoeventos{margin:99em 1.2em;width:700px;font-size: 19px !important;}
+#textoduvida{position: relative;margin:66em -9.5em;font-size: 28px !important;}
+#podcast{margin:94em -9.6em;font-size: 20px !important}
+#titulo1{top: 767px !important;font-size: 14px !important;text-transform:uppercase} 
+#texto1 {overflow-wrap: break-word !important;margin:50em 1em;font-size: 15px !important;line-height: 1.5em !important;
+         text-transform:uppercase;}
+#titulo2{top: -686px !important;left: 87px !important;text-transform:uppercase} 
+#texto2{margin:-47.8em 1em;font-size: 15px !important;line-height: 1.5em !important;
+    text-transform:uppercase} 
+}
+
+
+/*CAIXAS*/
+
+.box{position: absolute;
+    width: 1903px;
+    height: 330px;
+    top: 0px;
+    left: 0px;
+    background:rgb(49, 69, 160);
+    z-index: 1;
+    border:ridge 05px rgb(255, 187, 0);
+    border-left:transparent;
+    border-right:transparent}
+
+.box2{position: absolute;
+    width: 1903px;
+    height: 150px;
+    top: 1410px;
+    left: 0px;
+    background:rgb(49, 69, 160);
+    z-index: 1;
+    border:ridge 05px rgb(255, 187, 0);
+    border-left:transparent;
+    border-right:transparent}
+
+.box3{position: absolute;
+    width: 530px;
+    height: 70px;
+    top: 1242px;
+    left: 122px;
+    border-radius: 39px 39px 28px 28px;
+    border: 6px outset red;
+    z-index: -1;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.74),rgba(255, 255, 255, 0.774))}
+
+.box4{position: absolute;
+    width: 1780px;
+    height: 300px;
+    top: 375px;
+    left: 35px;
+    background:rgb(255, 255, 255);
+    border-radius: 39px;
+    border: 6px outset red;
+    z-index: -1}
+
+.box5{position: absolute;
+    width: 395px;
+    height: 70px;
+    top: 1250px;
+    left: 1337px;
+    border-radius: 39px;
+    border: 6px outset rgb(255, 0, 221);
+    z-index: -1;
+    background-image: linear-gradient(rgba(0, 247, 255, 0.74),rgb(30, 108, 255))}
+    
+/*TEXTOS*/
+
+#texto{position:absolute;
+    font-size:57px;
+    left: 410px;
+    top: 135px;
+    z-index: 2}  
+
+#eventosfeitos{position: absolute;
+    left: 60px;
+    top:713px;
+    color: #9800c7;
+    filter:drop-shadow(00px 00px 2px #ff0000);}
+    
+#textoeventos{position: absolute;
+    left: 131px;
+    top: 1244px;
+    font-size: 21px;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    text-shadow: 01px 00px 02px rgba(255, 5, 5, 0.685);}
+
+#titulo1{position: relative;
+    left: 98px;
+    width: 4px;
+    top: 42px;
+    color:hsl(258, 100%, 30%);
+    text-shadow: 02px 02px 02px rgb(255, 153, 0)} 
+
+#texto1{position: relative;
+    left: 54px;
+    top: 31px;
+    width: 4px;
+    font-size: 20.8px;
+    color:hsl(258, 100%, 30%);
+    text-shadow: 02px 02px 02px rgb(255, 153, 0);
+    white-space: nowrap;
+    font-variant: small-caps;}
+    
+
+#titulo2{position: relative;
+    left: 95px;
+    width: 250px;
+    top: 32px;
+    color:hsl(258, 100%, 30%);
+    text-shadow: 02px 02px 02px rgb(255, 153, 0)} 
+
+#texto2{position: relative;
+    left: 50px;
+    top:22px;
+    width: 0px;
+    font-size: 20.6px;
+    color:hsl(258, 100%, 30%);
+    text-shadow: 02px 02px 02px rgb(255, 153, 0);
+    white-space: nowrap;
+    font-variant: small-caps}
+
+#textoinstituição{position: absolute;
+    color: rgb(255, 0, 0);
+    text-shadow: 02px 00px 02px rgb(255, 187, 0);
+    font-size: 20px;
+    left: 700px;
+    top: 275px;
+    z-index: 2;
+    white-space: nowrap;
+   }
+
+#voluntario{position: absolute;
+    top:1440px;
+    left: 695px;
+    z-index: 3;
+    color: rgb(255, 238, 0);
+    background-image: linear-gradient(rgb(255, 0, 212),purple);
+    border-radius: 20px;
+    text-shadow: 01px 02px 02px rgb(0, 132, 255); ;
+    width:470px;
+    height: 57px;
+    border: 6px solid rgb(33, 197, 0)}
+
+
+#podcast{position:absolute;
+    width: 480px;
+    border-radius: 50px;
+    top:1256px;
+    left: 1357px;
+    font-size: 22px;
+    color: rgb(212, 39, 255);
+    text-shadow: 01px 00px 02px rgba(0, 255, 13, 0.76);;}
+
+/*IMAGENS E FOTOS*/
+
+#image1{position: absolute;
+    height: 300px;
+    left: 250px;
+    top: 8px;
+    z-index: 2;
+    filter: sepia(50%);
+    filter:drop-shadow(08px 06px 4px #ff0000);}
+    
+#imageinsta{position: absolute;
+    height: 70px;
+    left: 1750px;
+    top: 1449px; 
+    z-index: 2;}
+
+#imageinsta:hover{position: absolute;
+    height: 80px;
+    filter:drop-shadow(00px 00px 5px #ff0000);
+    top: 1442px}
+
+#image2{position: absolute;
+    height: 290px;
+    left: 1199px;
+    top: 29px;
+    z-index: 2;
+    filter:drop-shadow(08px 06px 4px #c300ff)}
+
+#image1evento{position: absolute;
+    height: 360px;
+    left: 50px;
+    top: 775px;
+    box-shadow: 07px 05px 06px;
+    }
+    
+#image2evento{position: absolute;
+    height: 360px;
+    left: 523px;
+    top: 775px;
+    box-shadow: 07px 05px 06px;}
+
+#image3evento{position: absolute;
+    height: 360px;
+    left: 982px;
+    top: 775px;
+    box-shadow: 07px 05px 06px;}
+
+#image4evento{position: absolute;
+    height: 360px;
+    left: 1439px;
+    top: 775px;
+    box-shadow: 07px 05px 06px;}
+
+#aviso{position: absolute;
+    height: 91px;
+    left: 32px;
+    top: 1189px;
+    transform:rotate(-39deg);
+    filter: contrast(200%);
+    z-index: 3;}
+
+#aviso:hover{filter: brightness(30%);}
+
+#localizador{position: absolute;
+    height: 60px;
+    width: 110px;
+    left: 12px;
+    top: 1454px;
+    z-index: 2;
+    filter:drop-shadow(00px 00px 3px #ffd900a6);}
+
+#imgpodcast{position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    top:1250px;
+    left: 1757px;
+    filter: drop-shadow(01px 00px 10px #ff0000);
+    animation: rotate 80s linear infinite;}
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(359deg);
+        }
+        }
+
+#naoendereco{position: absolute;
+    color:rgb(214, 122, 56);
+    height: 80px;
+    left: 90px;
+    top: 1476px;
+    text-shadow: 00px 00px 03px red;
+    z-index: 2;}
+
+#textoduvida{position: absolute;
+    height: 50px;
+    left: 1436px;
+    top: 1474px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+    text-shadow: 00px 00px 03px red;
+    z-index: 2;
+    font-size: 21px;
+    white-space: nowrap;}
+
+    
